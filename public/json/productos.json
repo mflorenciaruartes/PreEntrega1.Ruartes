@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "idCategoria": "batidora",
+        "nombre": "Batidora",
+        "marca": "Vonne",
+        "modelo": "RO450W",
+        "precio": 39999,
+        "stock": 10,
+        "img": "batidora.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": "cafetera",
+        "nombre": "Cafetera",
+        "marca": "Atma",
+        "modelo": "CA143P",
+        "precio": 7499,
+        "stock": 20,
+        "img": "cafetera.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": "cafetera",
+        "nombre": "Cafetera",
+        "marca": "Atma",
+        "modelo": "94CA80P",
+        "precio": 5399,
+        "stock": 15,
+        "img": "cafeteraAtma.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": "batidora",
+        "nombre": "Batidora",
+        "marca": "Moulinex",
+        "modelo": "SX1502AR",
+        "precio": 6499,
+        "stock": 15,
+        "img": "batidoraMoulinex.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": "licuadora",
+        "nombre": "Licuadora",
+        "marca": "Liliana",
+        "modelo": "AL100",
+        "precio": 8799,
+        "stock": 7,
+        "img": "licuadoraLiliana.jpg"
+    },
+    {
+        "id": 6,
+        "idCategoria": "cafetera",
+        "nombre": "Cafetera",
+        "marca": "Electrolux",
+        "modelo": "ECM25",
+        "precio": 10999,
+        "stock": 20,
+        "img": "cafeteraElectro.jpg"
+    },
+    {
+        "id": 7,
+        "idCategoria": "tostadora",
+        "nombre": "Tostadora",
+        "marca": "Yelmo",
+        "modelo": "TO-3006",
+        "precio": 4999,
+        "stock": 18,
+        "img": "TostadoraYelmo.jpg"
+    },
+    {
+        "id": 8,
+        "idCategoria": "cafetera",
+        "nombre": "Cafetera",
+        "marca": "Oster",
+        "modelo": "Dr5b",
+        "precio": 7869,
+        "stock": 8,
+        "img": "cafeteraOster.jpg"
+    },
+    {
+        "id": 9,
+        "idCategoria": "batidora",
+        "nombre": "Batidora",
+        "marca": "Oster",
+        "modelo": "FPSTH600",
+        "precio": 9999,
+        "stock": 21,
+        "img": "batidoraOster.jpg"
+    },
+    {
+        "id": 10,
+        "idCategoria": "licuadora",
+        "nombre": "Licuadora",
+        "marca": "Oster",
+        "modelo": "BLST55B",
+        "precio": 23999,
+        "stock": 5,
+        "img": "licuadoraOster.jpg"
+    },
+    {
+        "id": 11,
+        "idCategoria": "licuadora",
+        "nombre": "Licuadora",
+        "marca": "Philips",
+        "modelo": "HR2129",
+        "precio": 10999,
+        "stock": 20,
+        "img": "licuadoraPhilips.jpg"
+    },
+    {
+        "id": 12,
+        "idCategoria": "tostadora",
+        "nombre": "Tostadora",
+        "marca": "Atma",
+        "modelo": "TO80IP",
+        "precio": 8499,
+        "stock": 20,
+        "img": "tostadoraAtma.jpg"
+    }
+
+]

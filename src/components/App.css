@@ -1,3 +1,10 @@
-.titulo{
-    background-color: wheat;
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+    background-color: hsl(0, 0%, 97%);
+}
+
+.itemDetail {
+    max-width: 540px;
+    margin-top: 20px;
 }
