@@ -9,7 +9,7 @@ const Item = ({prod}) => {
                             <h5 className="card-title">{prod.nombre} {prod.modelo}</h5>
                             <p className="card-text">*{prod.marca}*</p>
                             <p className="card-text">$ {new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
-                            <button className='btn btn-outline-success'><Link to={`/product/${prod.id}`}>Ver Producto</Link></button>
+                            <button className='btn btn-outline-success'><Link className="text-decoration-none" to={`/product/${prod.id}`}>Ver Producto</Link></button>
                         </div>
         </div>
     );
