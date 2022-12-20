@@ -1,18 +1,20 @@
 import ItemCount from "../ItemCount/ItemCount";
 import { Link } from "react-router-dom";
+import { useDarkModeContext } from "../../Context/DarkModeContext";
 
 const ItemDetail = ({item}) => {
     
     const onAdd = (contador) =>{
         console.log(contador)
     }
+    const {darkMode} = useDarkModeContext()
     return (
         <div className="row g-0">
             <div className="col-md-4">
                 <img src={`../img/${item.img}`} alt="" className="img-fluid rounded-start"/>
             </div>
             <div className="col-md-8">
-                    <div className="card-body">
+                    <div className={`card-body ${darkMode ? 'cardBodyDark' : 'card-body'}`}>
                         <h5 className="card-title">{item.nombre}</h5>
                         <p className="card-text">Modelo: {item.modelo} </p>
                         <p className="card-text">Marca: {item.marca} </p>
