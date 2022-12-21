@@ -2,7 +2,9 @@ import BotonDarkMode from './BotonDarkMode/BotonDarkMode'
 import Form from "../Form/Form";
 import Categorias from "./Categorias/Categorias";
 import CartWidget from "../CartWidget/CartWidget";
+
 import { Link } from "react-router-dom";
+
 import { useDarkModeContext } from '../../Context/DarkModeContext';
 
 const Navbar = () => {
