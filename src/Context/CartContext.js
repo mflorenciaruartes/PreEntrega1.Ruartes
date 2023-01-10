@@ -13,14 +13,14 @@ export const CartProvider = (props) => {
 
     const addItem = (producto, cantidad) => {
         if(isInCart(producto.id)){
-        const indice = cart.findIndex(prod => prod.id === producto)
+        const indice = cart.findIndex(prod => prod.id === producto.id)
         const aux = [...cart]
         aux[indice].cant = cantidad
         setCart(aux)
         }else {
             const nuevoProducto ={
                 ...producto,
-                cant : cantidad
+                cant: cantidad
             }
             setCart([...cart, nuevoProducto])
         }
@@ -41,6 +41,8 @@ export const CartProvider = (props) => {
     const totalPrice = () => {
         return cart.reduce((acum, prod) => acum += (prod.cant * prod.precio), 0)
     }
+
+    console.log(cart)
 
     return(
         <CartContext.Provider value={{cart, isInCart, addItem, emptyCart, removeItem, getItemQuantity, totalPrice}}>
