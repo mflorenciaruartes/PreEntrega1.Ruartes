@@ -20,8 +20,14 @@ _Inicie el servidor: npm i_
 [Bootstrap] (https://getbootstrap.com/) - Bootstrap
 
 
-#### Imágenes:
+#### Imágenes y procedimiento de uso:
 
 ![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_35_41.png)
+![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_36_05.png)
+![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_36_29.png)
+![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_36_40.png)
+![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_37_04.png)
+![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_37_17.png)
+![alt text](https://github.com/mflorenciaruartes/PreEntrega1.Ruartes/blob/master/Docs/Nutrimarket%20-%20Google%20Chrome%2011_1_2023%2017_37_53.png)
 
 
