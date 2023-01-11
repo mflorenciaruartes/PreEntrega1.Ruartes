@@ -4,17 +4,17 @@ import { toast } from 'react-toastify';
 import { createOrdenCompra, getOrdenCompra, getProducto, updateProducto } from '../../assets/firebase';
 import { useCartContext } from '../../Context/CartContext';
 
-
-
 const CheckOut = () => {
     const {totalPrice, cart, emptyCart} = useCartContext()
     const datosFormulario = React.useRef()
     let navigate = useNavigate()
 
+
     const consultarFormulario = (e) => {
         e.preventDefault()
         const datForm = new FormData(datosFormulario.current)
         const cliente = Object.fromEntries(datForm)
+    
 
         const aux = [...cart]
         aux.forEach(prodCart =>{
@@ -29,6 +29,8 @@ const CheckOut = () => {
                 }
             })
         })
+
+
         createOrdenCompra(cliente, totalPrice(), new Date().toISOString()).then(ordenCompra => {
             getOrdenCompra(ordenCompra.id).then(item => {
                 toast.success(`¡Muchas gracias por su compra, el id de su orden es ${item.id}`)
@@ -41,6 +43,8 @@ const CheckOut = () => {
         })
     }
 
+   
+
     return (
         <div className="container">
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
@@ -50,10 +54,10 @@ const CheckOut = () => {
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" name="email" required/>
+                    <input type="email" className="form-control" name="email"  required/>
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Repetir Email</label>
+                    <label htmlFor="email2" className="form-label">Repetir Email</label>
                     <input type="email" className="form-control" name="email2" required/>
                 </div>
                 <div className="mb-3">
